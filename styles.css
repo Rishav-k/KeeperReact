@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+
+body{
+    margin: 0px;
+    background: rgb(235, 235, 235);
+    padding:0 16px;
+}
+.input{
+    border:none;
+    font-size: 22px;
+    outline:none;
+    width:100%;
+    padding:3px;
+}
+form{
+    padding:10px;
+}
+.input1{
+    font-family: sans-serif;
+    border:none;
+    font-size: 18px;
+    width:100%;
+    padding:5px;
+    resize:none;
+    outline:none;
+}
+header{
+    margin:auto -16px;
+    height: 80px;
+    padding: 0px;
+    background: rgb(219, 181, 9);
+}
+header h1{
+    margin:0;
+    line-height: 80px;
+    font-size: 40px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    color: white;
+}
+.header{
+    padding: 0  10%;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    color: grey;
+    text-align: center;
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+}
+.note h1{
+    margin-top:0;
+}
+.note{
+    margin:16px;
+    padding:10px;
+    height:120px;
+    width: 350px;
+    background:white;
+    border-radius: 7px;
+    float:left;
+    box-shadow: 0 2px 5px #ccc;
+}
+note p{
+    margin:0px;
+    white-space:pre-wrap;
+    word-wrap: break-word;
+}
+.addNote{
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    position:relative;
+    left:85%;
+    bottom:20px;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: rgb(231, 202, 38);
+}
